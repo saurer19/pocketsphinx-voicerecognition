@@ -1,0 +1,11 @@
+#JSGF V1.0;
+
+grammar test;
+
+public <test> = <place> <object> <command>;
+
+<place> = master | living room | kitchen;
+
+<object> = shades | lights | tv;
+
+<command> = on | off | down | up;

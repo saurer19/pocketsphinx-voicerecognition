@@ -1,0 +1,85 @@
+language model created by quicklm on mon nov 26 15:30:53 est 2018
+copyright (c) 1996-2010 carnegie mellon university and alexander i. rudnicky
+
+the model is in standard arpa format, designed by doug paul while he was at mitre.
+
+the code that was used to produce this language model is available in open source.
+please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+the (fixed) discount mass is 0.5. the backoffs are computed using the ratio method.
+this model based on a corpus of 13 sentences and 14 words
+
+\data\
+ngram 1=14
+ngram 2=22
+ngram 3=26
+
+\1-grams:
+-1.0259 </s> -0.3010
+-1.0259 <s> -0.2581
+-2.1399 computer -0.2581
+-1.8388 down -0.2581
+-1.8388 kitchen -0.2817
+-1.3617 lights -0.2751
+-1.3617 living -0.2817
+-1.5378 master -0.2684
+-1.5378 off -0.2581
+-1.5378 on -0.2581
+-1.3617 room -0.2615
+-1.5378 shades -0.2883
+-1.8388 tv -0.2751
+-1.8388 up -0.2581
+
+\2-grams:
+-1.4150 <s> computer 0.0000
+-1.1139 <s> kitchen 0.0000
+-0.6368 <s> living 0.0000
+-0.8129 <s> master 0.0000
+-0.3010 computer </s> -0.3010
+-0.3010 down </s> -0.3010
+-0.3010 kitchen lights 0.0000
+-0.6021 lights off 0.0000
+-0.6021 lights on 0.0000
+-0.3010 living room 0.0000
+-0.6021 master lights 0.0000
+-0.6021 master shades 0.0000
+-0.3010 off </s> -0.3010
+-0.3010 on </s> -0.3010
+-0.7782 room lights 0.0000
+-0.7782 room shades 0.0000
+-0.7782 room tv 0.0000
+-0.6021 shades down 0.0000
+-0.6021 shades up 0.0000
+-0.6021 tv off 0.0000
+-0.6021 tv on 0.0000
+-0.3010 up </s> -0.3010
+
+\3-grams:
+-0.3010 <s> computer </s>
+-0.3010 <s> kitchen lights
+-0.3010 <s> living room
+-0.6021 <s> master lights
+-0.6021 <s> master shades
+-0.6021 kitchen lights off
+-0.6021 kitchen lights on
+-0.3010 lights off </s>
+-0.3010 lights on </s>
+-0.7782 living room lights
+-0.7782 living room shades
+-0.7782 living room tv
+-0.6021 master lights off
+-0.6021 master lights on
+-0.6021 master shades down
+-0.6021 master shades up
+-0.6021 room lights off
+-0.6021 room lights on
+-0.6021 room shades down
+-0.6021 room shades up
+-0.6021 room tv off
+-0.6021 room tv on
+-0.3010 shades down </s>
+-0.3010 shades up </s>
+-0.3010 tv off </s>
+-0.3010 tv on </s>
+
+\end\
